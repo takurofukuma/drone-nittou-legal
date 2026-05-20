@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ドローン二等 学科試験 サンプル問題10問｜無料で力試し</title>
+<meta name="description" content="ドローン二等（二等無人航空機操縦士）学科試験の練習問題を無料で10問。法規・機体システム・運用・気象・リスク管理の5分野から出題。タップで正解と解説が読めます。">
+<style>
+  :root{ --green:#388E3C; --green-d:#2e7d32; --bg:#f5f5f0; --line:#e2e2da; }
+  *{ box-sizing:border-box; }
+  body{ font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif; max-width:680px; margin:0 auto; padding:0 18px 60px; color:#2b2b2b; line-height:1.7; -webkit-text-size-adjust:100%; }
+  header{ text-align:center; padding:42px 0 8px; }
+  h1{ font-size:1.45em; margin:0 0 6px; }
+  .lead{ color:#555; font-size:.95em; margin:0 0 20px; }
+  .cta{ display:inline-block; background:var(--green); color:#fff !important; text-decoration:none; font-weight:600; padding:14px 26px; border-radius:10px; box-shadow:0 2px 8px rgba(56,142,60,.25); }
+  .cta:hover{ background:var(--green-d); }
+  .cta-note{ font-size:.8em; color:#888; margin-top:8px; }
+  .progress{ font-size:.85em; color:#888; text-align:center; margin:26px 0 6px; }
+  .q{ background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:18px 18px 6px; margin:18px 0; }
+  .badge{ display:inline-block; font-size:.72em; font-weight:600; color:var(--green); background:#e7f2e7; border-radius:6px; padding:3px 9px; margin-bottom:10px; }
+  .qtext{ font-weight:600; margin:0 0 14px; }
+  .choice{ display:block; width:100%; text-align:left; font:inherit; color:#333; background:#fff; border:1.5px solid var(--line); border-radius:9px; padding:12px 14px; margin:8px 0; cursor:pointer; transition:.12s; }
+  .choice:hover{ border-color:var(--green); }
+  .choice:disabled{ cursor:default; }
+  .choice.correct{ border-color:var(--green); background:#e7f6e8; font-weight:600; }
+  .choice.wrong{ border-color:#d96b6b; background:#fbeaea; }
+  .choice .mark{ float:right; font-weight:700; }
+  .exp{ display:none; border-left:3px solid var(--green); background:#fff; border-radius:0 8px 8px 0; padding:12px 14px; margin:10px 0 14px; font-size:.93em; }
+  .exp.show{ display:block; }
+  .exp .src{ display:block; color:#999; font-size:.85em; margin-top:8px; }
+  .footwrap{ text-align:center; margin:40px 0 0; }
+  .disc{ margin-top:38px; padding-top:18px; border-top:1px solid var(--line); color:#999; font-size:.8em; line-height:1.6; }
+  .disc a{ color:#888; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ドローン二等 学科試験<br>サンプル問題 10問</h1>
+  <p class="lead">二等無人航空機操縦士の学科試験対策。5分野から各2問、無料で力試し。<br>選択肢をタップすると正解と解説が表示されます。</p>
+  <a class="cta" href="https://apps.apple.com/jp/app/id6770263915">アプリで全511問を解く（20問まで無料）</a>
+  <p class="cta-note">教則第4版＋令和7年2月改訂対応・買い切り¥1,800・広告なし</p>
+</header>
+
+<p class="progress" id="progress">0 / 10 問</p>
+<div id="quiz"></div>
+
+<div class="footwrap">
+  <a class="cta" href="https://apps.apple.com/jp/app/id6770263915">続きをアプリで解く →</a>
+  <p class="cta-note">分野別演習・模擬試験モード・苦手復習・iCloud同期</p>
+</div>
+
+<div class="disc">
+  ※ 本サンプルは学習用に独自作成した参考問題です。試験合格を保証するものではありません。最新の制度・教則は公式情報をご確認ください。<br>
+  ※ 本アプリは国土交通省航空局・公式試験運営団体・参考資料の発行機関とは一切関係ありません。<br>
+  <a href="index.html">法的情報</a> ・ <a href="sources.html">出典・免責事項</a> ・ お問い合わせ：asonedaywillberefreshing@gmail.com
+</div>
+
+<script>
+const Q = [{"cat": "法規", "q": "カテゴリーⅠ飛行（国の許可・承認が不要な飛行）の条件として正しいものはどれか。", "choices": ["人口集中地区の上空を昼間・目視内・第三者から30m以上で飛行する場合", "無人地帯で昼間・目視内・第三者等から30m以上の距離を保って飛行する場合", "夜間に人のいない農地の上空を補助者なしで飛行する場合"], "ans": 1, "exp": "カテゴリーⅠ飛行は「無人地帯・昼間・目視内・第三者から30m以上」の4条件をすべて満たす場合のみ許可不要です。人口集中地区（DID）上空は特定飛行になりますし、夜間飛行も同様に特定飛行に該当します。", "src": "教則第4版 §3.2（航空法）"}, {"cat": "法規", "q": "航空法が定める飛行禁止空域（飛行禁止区域）として正しいものはどれか。", "choices": ["空港周辺の進入表面等・高度300m以上の空域・市街地上空", "空港周辺の進入表面等・高度150m以上の空域・人口集中地区（DID）上空", "国会議事堂周辺・空港周辺・高度200m以上の空域"], "ans": 1, "exp": "航空法が定める3つの飛行禁止空域は「①空港周辺の進入表面等・②高度150m以上・③人口集中地区（DID）上空」です。高度は150mが基準です。なお国会議事堂周辺は別の法律（小型無人機等飛行禁止法）の対象です。", "src": "教則第4版 §3.2（航空法）"}, {"cat": "機体システム", "q": "リチウムポリマーバッテリーを長期保管する際の適切な充電残量として正しいものはどれか。", "choices": ["満充電（100%）の状態で保管する", "完全放電（0%）の状態で保管する", "容量の約50〜60%程度で保管する"], "ans": 2, "exp": "リチウムポリマーバッテリーの長期保管は「容量の約50〜60%（保管充電）」が推奨されます。満充電での保管はセルの膨張劣化を、完全放電での保管は過放電劣化を招きます。長期使用しない場合は保管充電設定で充電してから保管しましょう。", "src": "教則第4版 §4.3（機体の構成要素）"}, {"cat": "機体システム", "q": "GNSSで3次元測位（緯度・経度・高度）を行うために必要な最低衛星数として正しいものはどれか。", "choices": ["2個以上", "4個以上", "8個以上"], "ans": 1, "exp": "GNSSで緯度・経度・高度の3次元測位を行うには最低4個以上の衛星信号が必要です。3個では平面（2次元）の測位のみ可能です。衛星数が少ないと測位精度が低下するため、飛行前に受信衛星数を確認しましょう。", "src": "教則第4版 §4.3（機体の構成要素）"}, {"cat": "運用", "q": "飛行前に確認すべき地域情報として教則に記載されているものはどれか。", "choices": ["当日の株価・為替・天気予報の3項目", "日出・日没時刻、標高・障害物、離着陸場所の状況、地上・空の交通状況の4項目", "許可申請書の内容・飛行日誌の記載・保険証券の確認の3項目"], "ans": 1, "exp": "飛行前の地域確認4項目は「①日出・日没時刻（夜間飛行の判断）②標高・障害物（衝突防止）③離着陸場所の状況（安全確認）④地上・空の交通状況（他機・人への影響）」です。毎回の飛行前にこの4項目を確認することが事故防止の基本です。", "src": "教則第4版 §5.2（離着陸操作）"}, {"cat": "運用", "q": "固定翼機（飛行機型）の離着陸を行う際に基本とすべき風向として正しいものはどれか。", "choices": ["追い風（背風）方向に向かって離着陸する", "向かい風方向に向かって離着陸する", "横風方向を選んで離着陸する"], "ans": 1, "exp": "固定翼機の離着陸は「向かい風に向かって」が原則です。向かい風の場合、対気速度を稼ぎやすく短い距離で揚力が得られます。追い風での離陸は対気速度が低くなり危険です。マルチローターとは異なる特性として覚えておきましょう。", "src": "教則第4版 §5.2（離着陸操作）"}, {"cat": "気象・環境", "q": "無人航空機の飛行を延期・中止すべき気象条件として正しいものはどれか。", "choices": ["風速5m/s以下の穏やかな風の日", "降雨・降雪・霧の発生・雷鳴が聞こえる状況", "雲量が多いが雨が降っていない曇りの日"], "ans": 1, "exp": "「降雨・降雪・霧の発生・雷鳴が聞こえる状況」では飛行を延期・中止すべきです。雨は機体の電装系にダメージを与え、霧は視界を失わせ、雷は直撃リスクがあります。曇りで雨が降っていない場合は通常飛行可能ですが、積乱雲の発達には注意が必要です。", "src": "教則第4版 §6.2（気象）"}, {"cat": "気象・環境", "q": "積乱雲（雷雲）が発達しているとき、ドローン飛行において特に注意すべき現象として正しいものはどれか。", "choices": ["上昇気流のみ発生するため機体が高く舞い上がるが落下はしない", "突風・雷・強いにわか雨が発生し機体制御不能や落雷リスクがある", "積乱雲の下は晴れていることが多く飛行に適している"], "ans": 1, "exp": "積乱雲（雷雲）が発達していると突風・雷・強いにわか雨が発生します。落雷が機体に直撃するリスクも高く非常に危険です。積乱雲が見えたり雷鳴が聞こえたりしたら直ちに飛行を中止してください。「まだ遠いから大丈夫」は誤りです。", "src": "教則第4版 §6.2（気象）"}, {"cat": "リスク管理", "q": "「ハザード」と「リスク」の定義の組み合わせとして正しいものはどれか。", "choices": ["ハザード＝被害の大きさ、リスク＝事故の発生確率", "ハザード＝危険の源（潜在的な危険要因）、リスク＝発生確率と被害の大きさの組み合わせ", "ハザード＝過去の事故事例、リスク＝将来の事故予測"], "ans": 1, "exp": "ハザードは「危険の源や潜在的な危険要因」（例：電線・強風・疲労）、リスクは「そのハザードが事故に至る確率×被害の大きさの組み合わせ」です。「ハザード（原因）→リスク（確率×被害）→事故」という流れで覚えましょう。", "src": "教則第4版 §6.1（運航リスク管理）"}, {"cat": "リスク管理", "q": "疲労・睡眠不足が飛行安全に与える影響として正しいものはどれか。", "choices": ["疲労・睡眠不足でも熟練した操縦者であれば飛行安全への影響は無視できる", "疲労・睡眠不足は注意力や判断力を低下させ事故の原因になるため飛行を控えるべきである", "飛行前に栄養ドリンクを飲めば疲労の影響を打ち消すことができる"], "ans": 1, "exp": "疲労・睡眠不足は熟練者であっても注意力や判断力を低下させます。「慣れているから大丈夫」は危険な思い込みです。体調管理は操縦者の基本的な義務であり、疲労・睡眠不足・高ストレス状態では飛行を控えることが求められます。", "src": "教則第4版 §6.1（運航リスク管理）"}];
+const quiz = document.getElementById('quiz');
+let answered = 0;
+const prog = document.getElementById('progress');
+Q.forEach((item, qi) => {
+  const card = document.createElement('div');
+  card.className = 'q';
+  const badge = '<span class="badge">' + (qi+1) + '. ' + item.cat + '</span>';
+  card.innerHTML = badge + '<p class="qtext">' + item.q + '</p>';
+  const expEl = document.createElement('div');
+  expEl.className = 'exp';
+  expEl.innerHTML = item.exp + '<span class="src">出典：' + item.src + '</span>';
+  const btns = [];
+  item.choices.forEach((c, ci) => {
+    const b = document.createElement('button');
+    b.className = 'choice';
+    b.textContent = c;
+    b.onclick = () => {
+      if (b.disabled) return;
+      btns.forEach(x => x.disabled = true);
+      btns[item.ans].classList.add('correct');
+      btns[item.ans].innerHTML += '<span class="mark">○</span>';
+      if (ci !== item.ans) { b.classList.add('wrong'); b.innerHTML += '<span class="mark">×</span>'; }
+      expEl.classList.add('show');
+      answered++; prog.textContent = answered + ' / 10 問';
+    };
+    btns.push(b);
+    card.appendChild(b);
+  });
+  card.appendChild(expEl);
+  quiz.appendChild(card);
+});
+</script>
+</body>
+</html>
