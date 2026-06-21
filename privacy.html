@@ -35,10 +35,10 @@
   <h2>App内課金（買い切り）と外部サービス</h2>
   <p>本アプリは買い切り型のApp内課金を提供します。購入処理および購入状態の確認のため、以下の通信が発生します。</p>
   <ul>
-    <li><strong>Apple App Store / StoreKit</strong>：App内課金の決済・領収書検証</li>
-    <li><strong>RevenueCat</strong>：購入状態の管理および機種変更時の購入復元（<a href="https://www.revenuecat.com/privacy">RevenueCat プライバシーポリシー</a>）</li>
+    <li><strong>Apple App Store / StoreKit（iOS版）／ Google Play / Google Play Billing（Android版）</strong>：App内課金の決済・購入検証</li>
+    <li><strong>RevenueCat</strong>：購入履歴の管理・購入状態の確認・機種変更時の購入復元、および購入の分析（<a href="https://www.revenuecat.com/privacy">RevenueCat プライバシーポリシー</a>）</li>
   </ul>
-  <p>これらの通信ではApp Storeが発行する匿名のユーザー識別子のみが扱われ、Appleアカウントの個人情報・氏名・連絡先は本アプリ開発者には渡されません。</p>
+  <p>これらの通信では、ストア（App Store／Google Play）が発行する匿名の識別子・購入トークン等の購入履歴情報のみが扱われ、氏名・メールアドレス・連絡先などの個人情報は本アプリ開発者には渡されません。購入履歴は、アプリ機能の提供および購入の分析のために収集・処理されます。</p>
 
   <h2>広告・アナリティクス</h2>
   <p>本アプリは広告・アクセス解析・第三者のソーシャルログインを使用していません。</p>
